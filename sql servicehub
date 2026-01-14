@@ -1,5 +1,105 @@
 USE [ServiceHub]
 GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b001', N'irene@gmail.com', N'PLB201A', N'Lucknow', N'Alambagh', N'9000000001', CAST(N'2026-01-15T09:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Fix kitchen tap', 1, N'Completed', N'PP5001', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b002', N'rohan@gmail.com', N'PLB202B', N'Kanpur', N'Kalyanpur', N'9000000002', CAST(N'2026-01-15T10:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Bathroom leakage', 1, N'Completed', N'PP5002', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b003', N'sneha@gmail.com', N'CLN203C', N'Delhi', N'Dwarka', N'9000000003', CAST(N'2026-01-15T11:00:00.0000000' AS DateTime2), CAST(N'08:00:00' AS Time), CAST(N'10:00:00' AS Time), N'Deep clean 2BHK', 1, N'Completed', N'PP5003', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b004', N'aman@gmail.com', N'CLN204D', N'Noida', N'Sector 62', N'9000000004', CAST(N'2026-01-15T12:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Kitchen cleaning', 1, N'Completed', N'PP5004', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b005', N'neha@gmail.com', N'ELC205E', N'Gurgaon', N'DLF Phase 3', N'9000000005', CAST(N'2026-01-16T09:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Switch replacement', 1, N'Completed', N'PP5005', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b006', N'arjun@gmail.com', N'ELC206F', N'Faridabad', N'NIT', N'9000000006', CAST(N'2026-01-16T10:00:00.0000000' AS DateTime2), CAST(N'11:00:00' AS Time), CAST(N'13:00:00' AS Time), N'Fan installation', 1, N'Completed', N'PP5006', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b007', N'pooja@gmail.com', N'ACR207G', N'Jaipur', N'Malviya Nagar', N'9000000007', CAST(N'2026-01-16T11:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'AC general service', 1, N'Completed', N'PP5007', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b008', N'rahul@gmail.com', N'ACR208H', N'Udaipur', N'Hiran Magri', N'9000000008', CAST(N'2026-01-16T12:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'AC gas check', 1, N'Completed', N'PP5008', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b009', N'ankit@gmail.com', N'CAR209I', N'Indore', N'Vijay Nagar', N'9000000009', CAST(N'2026-01-17T09:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Door repair', 1, N'Completed', N'PP5009', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b010', N'irene@gmail.com', N'CAR210J', N'Bhopal', N'MP Nagar', N'9000000010', CAST(N'2026-01-17T10:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Bed assembly', 1, N'Completed', N'PP5010', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b011', N'rohan@gmail.com', N'PNT211K', N'Agra', N'Sikandra', N'9000000011', CAST(N'2026-01-17T11:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Room painting', 1, N'Completed', N'PP5011', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b012', N'sneha@gmail.com', N'PNT212L', N'Mathura', N'Govardhan', N'9000000012', CAST(N'2026-01-17T12:00:00.0000000' AS DateTime2), CAST(N'11:00:00' AS Time), CAST(N'13:00:00' AS Time), N'Touch-up paint', 1, N'Completed', N'PP5012', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b013', N'aman@gmail.com', N'CLN213M', N'Prayagraj', N'Civil Lines', N'9000000013', CAST(N'2026-01-18T09:00:00.0000000' AS DateTime2), CAST(N'08:00:00' AS Time), CAST(N'10:00:00' AS Time), N'Bathroom cleaning', 1, N'Completed', N'PP5013', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b014', N'neha@gmail.com', N'ELC214N', N'Varanasi', N'Sigra', N'9000000014', CAST(N'2026-01-18T10:00:00.0000000' AS DateTime2), CAST(N'12:00:00' AS Time), CAST(N'14:00:00' AS Time), N'Inverter check', 1, N'Completed', N'PP5014', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b015', N'arjun@gmail.com', N'ACR215O', N'Patna', N'Kankarbagh', N'9000000015', CAST(N'2026-01-18T11:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Split AC installation', 1, N'Completed', N'PP5015', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b016', N'pooja@gmail.com', N'PLB201A', N'Lucknow', N'Alambagh', N'9000000001', CAST(N'2026-01-19T09:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Kitchen sink leak', 1, N'Completed', N'PP5016', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b017', N'rahul@gmail.com', N'PLB202B', N'Kanpur', N'Kalyanpur', N'9000000002', CAST(N'2026-01-19T10:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Bathroom pipe fix', 1, N'Completed', N'PP5017', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b018', N'ankit@gmail.com', N'CLN203C', N'Delhi', N'Dwarka', N'9000000003', CAST(N'2026-01-19T11:00:00.0000000' AS DateTime2), CAST(N'08:00:00' AS Time), CAST(N'10:00:00' AS Time), N'Living room cleaning', 1, N'Completed', N'PP5018', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b019', N'irene@gmail.com', N'CLN204D', N'Noida', N'Sector 62', N'9000000004', CAST(N'2026-01-19T12:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Kitchen deep clean', 1, N'Completed', N'PP5019', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b020', N'rohan@gmail.com', N'ELC205E', N'Gurgaon', N'DLF Phase 3', N'9000000005', CAST(N'2026-01-20T09:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Switchboard repair', 1, N'Completed', N'PP5020', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b021', N'sneha@gmail.com', N'ELC206F', N'Faridabad', N'NIT', N'9000000006', CAST(N'2026-01-20T10:00:00.0000000' AS DateTime2), CAST(N'11:00:00' AS Time), CAST(N'13:00:00' AS Time), N'Fan repair', 1, N'Completed', N'PP5021', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b022', N'aman@gmail.com', N'ACR207G', N'Jaipur', N'Malviya Nagar', N'9000000007', CAST(N'2026-01-20T11:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'AC maintenance', 1, N'Completed', N'PP5022', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b023', N'neha@gmail.com', N'ACR208H', N'Udaipur', N'Hiran Magri', N'9000000008', CAST(N'2026-01-20T12:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'AC filter cleaning', 1, N'Completed', N'PP5023', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b024', N'arjun@gmail.com', N'CAR209I', N'Indore', N'Vijay Nagar', N'9000000009', CAST(N'2026-01-21T09:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Cabinet repair', 1, N'Completed', N'PP5024', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b025', N'pooja@gmail.com', N'CAR210J', N'Bhopal', N'MP Nagar', N'9000000010', CAST(N'2026-01-21T10:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Furniture assembly', 1, N'Completed', N'PP5025', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b026', N'rahul@gmail.com', N'PNT211K', N'Agra', N'Sikandra', N'9000000011', CAST(N'2026-01-21T11:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Room painting', 1, N'Completed', N'PP5026', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b027', N'ankit@gmail.com', N'PNT212L', N'Mathura', N'Govardhan', N'9000000012', CAST(N'2026-01-21T12:00:00.0000000' AS DateTime2), CAST(N'11:00:00' AS Time), CAST(N'13:00:00' AS Time), N'Touch-up paint', 1, N'Completed', N'PP5027', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b028', N'irene@gmail.com', N'CLN213M', N'Prayagraj', N'Civil Lines', N'9000000013', CAST(N'2026-01-22T09:00:00.0000000' AS DateTime2), CAST(N'08:00:00' AS Time), CAST(N'10:00:00' AS Time), N'Bathroom cleaning', 1, N'Completed', N'PP5028', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b029', N'rohan@gmail.com', N'ELC214N', N'Varanasi', N'Sigra', N'9000000014', CAST(N'2026-01-22T10:00:00.0000000' AS DateTime2), CAST(N'12:00:00' AS Time), CAST(N'14:00:00' AS Time), N'Inverter repair', 1, N'Completed', N'PP5029', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b030', N'sneha@gmail.com', N'ACR215O', N'Patna', N'Kankarbagh', N'9000000015', CAST(N'2026-01-22T11:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'12:00:00' AS Time), N'AC installation', 1, N'Completed', N'PP5030', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b031', N'aman@gmail.com', N'PLB201A', N'Lucknow', N'Alambagh', N'9000000001', CAST(N'2026-01-23T09:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Kitchen tap', 1, N'Completed', N'PP5031', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b032', N'neha@gmail.com', N'PLB202B', N'Kanpur', N'Kalyanpur', N'9000000002', CAST(N'2026-01-23T10:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Bathroom leak', 1, N'Completed', N'PP5032', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b033', N'arjun@gmail.com', N'CLN203C', N'Delhi', N'Dwarka', N'9000000003', CAST(N'2026-01-23T11:00:00.0000000' AS DateTime2), CAST(N'08:00:00' AS Time), CAST(N'10:00:00' AS Time), N'Deep cleaning', 1, N'Completed', N'PP5033', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b034', N'pooja@gmail.com', N'CLN204D', N'Noida', N'Sector 62', N'9000000004', CAST(N'2026-01-23T12:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Kitchen clean', 1, N'Completed', N'PP5034', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b035', N'rahul@gmail.com', N'ELC205E', N'Gurgaon', N'DLF Phase 3', N'9000000005', CAST(N'2026-01-24T09:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Switch fix', 1, N'Completed', N'PP5035', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b036', N'ankit@gmail.com', N'ELC206F', N'Faridabad', N'NIT', N'9000000006', CAST(N'2026-01-24T10:00:00.0000000' AS DateTime2), CAST(N'11:00:00' AS Time), CAST(N'13:00:00' AS Time), N'Fan repair', 1, N'Completed', N'PP5036', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b037', N'irene@gmail.com', N'ACR207G', N'Jaipur', N'Malviya Nagar', N'9000000007', CAST(N'2026-01-24T11:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'AC service', 1, N'Completed', N'PP5037', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b038', N'rohan@gmail.com', N'ACR208H', N'Udaipur', N'Hiran Magri', N'9000000008', CAST(N'2026-01-24T12:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'AC gas refill', 1, N'Completed', N'PP5038', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b039', N'sneha@gmail.com', N'CAR209I', N'Indore', N'Vijay Nagar', N'9000000009', CAST(N'2026-01-25T09:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Cabinet repair', 1, N'Completed', N'PP5039', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b040', N'aman@gmail.com', N'CAR210J', N'Bhopal', N'MP Nagar', N'9000000010', CAST(N'2026-01-25T10:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Furniture assembly', 1, N'Completed', N'PP5040', N'Paid')
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b041', N'neha@gmail.com', N'PNT211K', N'Agra', N'Sikandra', N'9000000011', CAST(N'2026-01-25T11:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Room painting', 1, N'Rejected', NULL, NULL)
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b042', N'arjun@gmail.com', N'PNT212L', N'Mathura', N'Govardhan', N'9000000012', CAST(N'2026-01-25T12:00:00.0000000' AS DateTime2), CAST(N'11:00:00' AS Time), CAST(N'13:00:00' AS Time), N'Touch-up paint', 1, N'Rejected', NULL, NULL)
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b043', N'pooja@gmail.com', N'CLN213M', N'Prayagraj', N'Civil Lines', N'9000000013', CAST(N'2026-01-26T09:00:00.0000000' AS DateTime2), CAST(N'08:00:00' AS Time), CAST(N'10:00:00' AS Time), N'Bathroom cleaning', 1, N'Rejected', NULL, NULL)
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b044', N'rahul@gmail.com', N'ELC214N', N'Varanasi', N'Sigra', N'9000000014', CAST(N'2026-01-26T10:00:00.0000000' AS DateTime2), CAST(N'12:00:00' AS Time), CAST(N'14:00:00' AS Time), N'Inverter repair', 1, N'Rejected', NULL, NULL)
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b045', N'ankit@gmail.com', N'ACR215O', N'Patna', N'Kankarbagh', N'9000000015', CAST(N'2026-01-26T11:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'12:00:00' AS Time), N'AC installation', 1, N'Rejected', NULL, NULL)
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b046', N'irene@gmail.com', N'PLB201A', N'Lucknow', N'Alambagh', N'9000000001', CAST(N'2026-01-27T09:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Kitchen tap', 1, N'Rejected', NULL, NULL)
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b047', N'rohan@gmail.com', N'PLB202B', N'Kanpur', N'Kalyanpur', N'9000000002', CAST(N'2026-01-27T10:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Bathroom leak', 1, N'Rejected', NULL, NULL)
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b048', N'sneha@gmail.com', N'CLN203C', N'Delhi', N'Dwarka', N'9000000003', CAST(N'2026-01-27T11:00:00.0000000' AS DateTime2), CAST(N'08:00:00' AS Time), CAST(N'10:00:00' AS Time), N'Deep cleaning', 1, N'Rejected', NULL, NULL)
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b049', N'aman@gmail.com', N'CLN204D', N'Noida', N'Sector 62', N'9000000004', CAST(N'2026-01-27T12:00:00.0000000' AS DateTime2), CAST(N'09:00:00' AS Time), CAST(N'11:00:00' AS Time), N'Kitchen clean', 1, N'Rejected', NULL, NULL)
+GO
+INSERT [dbo].[Bookings] ([Initial_Book_Id], [Consumer_Email], [Service_Id], [Address], [Landmark], [Phone], [Date], [PreferredTimeSlot1], [PreferredTimeSlot2], [Notes], [Payment], [Booking_Status], [PayPalOrderId], [PaymentStatus]) VALUES (N'b050', N'neha@gmail.com', N'ELC205E', N'Gurgaon', N'DLF Phase 3', N'9000000005', CAST(N'2026-01-27T13:00:00.0000000' AS DateTime2), CAST(N'10:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Switch repair', 1, N'Rejected', NULL, NULL)
+GO
 INSERT [dbo].[CategoryTables] ([Category_Id], [Category_name], [Category_images]) VALUES (N'1', N'Plumber', N'https://res.cloudinary.com/dmk0npdfp/image/upload/v1767325742/plumber_fd0w4j.jpg')
 GO
 INSERT [dbo].[CategoryTables] ([Category_Id], [Category_name], [Category_images]) VALUES (N'2', N'Electrician', N'https://res.cloudinary.com/dmk0npdfp/image/upload/v1767325741/Electrician_l99b2y.webp')
@@ -12,81 +112,208 @@ INSERT [dbo].[CategoryTables] ([Category_Id], [Category_name], [Category_images]
 GO
 INSERT [dbo].[CategoryTables] ([Category_Id], [Category_name], [Category_images]) VALUES (N'6', N'Painter', N'https://res.cloudinary.com/dmk0npdfp/image/upload/v1767326053/wallpainter_ajqtef.jpg')
 GO
-INSERT [dbo].[CategoryTables] ([Category_Id], [Category_name], [Category_images]) VALUES (N'7', N'Home Service', N'home-service.jpg')
+INSERT [dbo].[ContactInfos] ([Contact_Info_Id], [Content_Heading], [Content], [Url], [Contact_Info_Category]) VALUES (N'CI501', N'Address', N'Lucknow, UP, India', N'<iframe src="https://www.google.com/maps?q=Lucknow,%20UP,%20India&output=embed"
+width="100%" height="120" style="border:0;" allowfullscreen loading="lazy"></iframe>', N'Contact')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B301', N'c1@gmail.com', N'5')
+INSERT [dbo].[ContactInfos] ([Contact_Info_Id], [Content_Heading], [Content], [Url], [Contact_Info_Category]) VALUES (N'CI502', N'Email', N'serviceprovidingcomapany@gmail.com', NULL, N'Contact')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B302', N'c2@gmail.com', N'4')
+INSERT [dbo].[ContactInfos] ([Contact_Info_Id], [Content_Heading], [Content], [Url], [Contact_Info_Category]) VALUES (N'CI503', N'Phone', N'+91 XXXXXXXX', NULL, N'Contact')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B303', N'c3@gmail.com', N'5')
+INSERT [dbo].[ContactInfos] ([Contact_Info_Id], [Content_Heading], [Content], [Url], [Contact_Info_Category]) VALUES (N'CI504', N'GitHub', NULL, N'<a href="https://github.com" target="_blank">
+<iframe src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" scrolling="no"></iframe>
+</a>', N'Social')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B304', N'c4@gmail.com', N'4')
+INSERT [dbo].[ContactInfos] ([Contact_Info_Id], [Content_Heading], [Content], [Url], [Contact_Info_Category]) VALUES (N'CI505', N'LinkedIn', NULL, N'<a href="https://www.linkedin.com" target="_blank">
+<iframe src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" scrolling="no"></iframe>
+</a>', N'Social')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B305', N'c5@gmail.com', N'3')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-001', N'b001', N'irene@gmail.com', N'provider1@gmail.com', N'PLB201A', N'Plumber', 5, N'Excellent work', N'2026-01-15')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B306', N'c6@gmail.com', N'5')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-002', N'b002', N'rohan@gmail.com', N'provider2@gmail.com', N'PLB202B', N'Plumber', 4, N'Quick and neat', N'2026-01-15')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B307', N'c7@gmail.com', N'4')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-003', N'b003', N'sneha@gmail.com', N'provider3@gmail.com', N'CLN203C', N'Cleaning', 5, N'Very professional', N'2026-01-15')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B308', N'c8@gmail.com', N'5')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-004', N'b004', N'aman@gmail.com', N'provider4@gmail.com', N'CLN204D', N'Cleaning', 4, N'Good cleaning', N'2026-01-15')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B309', N'c9@gmail.com', N'4')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-005', N'b005', N'neha@gmail.com', N'provider5@gmail.com', N'ELC205E', N'Electrician', 5, N'Perfect work', N'2026-01-16')
 GO
-INSERT [dbo].[Consumers] ([Booking_Id], [Consumer_Email], [Rating]) VALUES (N'B310', N'c10@gmail.com', N'5')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-006', N'b006', N'arjun@gmail.com', N'provider6@gmail.com', N'ELC206F', N'Electrician', 4, N'Fixed everything', N'2026-01-16')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B301', N'p1@gmail.com', N'AC cooling improved a lot')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-007', N'b007', N'pooja@gmail.com', N'provider7@gmail.com', N'ACR207G', N'AC Repair', 5, N'AC working great', N'2026-01-16')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B302', N'p1@gmail.com', N'Quick service')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-008', N'b008', N'rahul@gmail.com', N'provider8@gmail.com', N'ACR208H', N'AC Repair', 5, N'Timely service', N'2026-01-16')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B303', N'p2@gmail.com', N'Very professional')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-009', N'b009', N'ankit@gmail.com', N'provider9@gmail.com', N'CAR209I', N'Carpenter', 4, N'Good work', N'2026-01-17')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B304', N'p3@gmail.com', N'Leak fixed properly')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-010', N'b010', N'irene@gmail.com', N'provider10@gmail.com', N'CAR210J', N'Carpenter', 5, N'Highly recommend', N'2026-01-17')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B305', N'p3@gmail.com', N'Satisfied with work')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-011', N'b011', N'rohan@gmail.com', N'provider11@gmail.com', N'PNT211K', N'Painter', 4, N'Nice paint job', N'2026-01-17')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B306', N'p4@gmail.com', N'House cleaned well')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-012', N'b012', N'sneha@gmail.com', N'provider12@gmail.com', N'PNT212L', N'Painter', 5, N'Excellent', N'2026-01-17')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B307', N'p4@gmail.com', N'Good cleaning')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-013', N'b013', N'aman@gmail.com', N'provider13@gmail.com', N'CLN213M', N'Cleaning', 5, N'Very thorough', N'2026-01-18')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B308', N'p4@gmail.com', N'Recommended service')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-014', N'b014', N'neha@gmail.com', N'provider14@gmail.com', N'ELC214N', N'Electrician', 4, N'Fixed wiring', N'2026-01-18')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B309', N'p5@gmail.com', N'Wiring fixed')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-015', N'b015', N'arjun@gmail.com', N'provider15@gmail.com', N'ACR215O', N'AC Repair', 5, N'AC running smoothly', N'2026-01-18')
 GO
-INSERT [dbo].[Providers] ([Booking_Id], [Provider_Email], [Customer_Feedback]) VALUES (N'B310', N'p5@gmail.com', N'Fast and neat work')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-016', N'b016', N'pooja@gmail.com', N'provider1@gmail.com', N'PLB201A', N'Plumber', 4, N'Good work', N'2026-01-19')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B301', N'c1@gmail.com', N'p1@gmail.com', N'1015', N'AC Repair', N'2025-03-10')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-017', N'b017', N'rahul@gmail.com', N'provider2@gmail.com', N'PLB202B', N'Plumber', 5, N'Quick fix', N'2026-01-19')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B302', N'c2@gmail.com', N'p1@gmail.com', N'1015', N'AC Repair', N'2025-03-11')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-018', N'b018', N'ankit@gmail.com', N'provider3@gmail.com', N'CLN203C', N'Cleaning', 4, N'Neat cleaning', N'2026-01-19')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B303', N'c3@gmail.com', N'p2@gmail.com', N'1015', N'AC Repair', N'2025-03-12')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-019', N'b019', N'irene@gmail.com', N'provider4@gmail.com', N'CLN204D', N'Cleaning', 5, N'Highly recommend', N'2026-01-19')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B304', N'c4@gmail.com', N'p3@gmail.com', N'1016', N'Plumber', N'2025-03-10')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-020', N'b020', N'rohan@gmail.com', N'provider5@gmail.com', N'ELC205E', N'Electrician', 5, N'Excellent', N'2026-01-20')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B305', N'c5@gmail.com', N'p3@gmail.com', N'1016', N'Plumber', N'2025-03-11')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-021', N'b021', N'sneha@gmail.com', N'provider6@gmail.com', N'ELC206F', N'Electrician', 4, N'Well done', N'2026-01-20')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B306', N'c6@gmail.com', N'p4@gmail.com', N'1017', N'Cleaning', N'2025-03-10')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-022', N'b022', N'aman@gmail.com', N'provider7@gmail.com', N'ACR207G', N'AC Repair', 5, N'AC works perfectly', N'2026-01-20')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B307', N'c7@gmail.com', N'p4@gmail.com', N'1017', N'Cleaning', N'2025-03-11')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-023', N'b023', N'neha@gmail.com', N'provider8@gmail.com', N'ACR208H', N'AC Repair', 5, N'Very satisfied', N'2026-01-20')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B308', N'c8@gmail.com', N'p4@gmail.com', N'1017', N'Cleaning', N'2025-03-12')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-024', N'b024', N'arjun@gmail.com', N'provider9@gmail.com', N'CAR209I', N'Carpenter', 4, N'Good work', N'2026-01-21')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B309', N'c9@gmail.com', N'p5@gmail.com', N'1018', N'Electrician', N'2025-03-11')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-025', N'b025', N'pooja@gmail.com', N'provider10@gmail.com', N'CAR210J', N'Carpenter', 5, N'Excellent', N'2026-01-21')
 GO
-INSERT [dbo].[ServiceBookings] ([Booking_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Booking_Date]) VALUES (N'B310', N'c10@gmail.com', N'p5@gmail.com', N'1018', N'Electrician', N'2025-03-12')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-026', N'b026', N'rahul@gmail.com', N'provider11@gmail.com', N'PNT211K', N'Painter', 5, N'Neat and clean', N'2026-01-21')
 GO
-SET IDENTITY_INSERT [dbo].[Services] ON 
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-027', N'b027', N'ankit@gmail.com', N'provider12@gmail.com', N'PNT212L', N'Painter', 4, N'Nice finish', N'2026-01-21')
 GO
-INSERT [dbo].[Services] ([Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [BlockDates], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (1015, N'AC Repair Basic', N'AC gas check & cleaning', N'499', N'60', N'AC Repair', N'https://th.bing.com/th/id/R.6a6d57699c546d0462118de354068057?rik=FYDgKFDeMNwVWA&riu=http%3a%2f%2forangecountyplumbinghvac.com%2fwp-content%2fuploads%2f2016%2f12%2fAir-Conditioning-Repair.jpg&ehk=94NUxEvhnPA9iAmfV8Bnf7UX%2bfVJr8NmI5ds9%2bB4mo4%3d&risl=&pid=ImgRaw&r=0', CAST(N'09:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Sat', N'', N'09-11,11-13,14-16', N'Mumbai', N'400001', 15, N'Andheri East', N'Rohit Verma', N'9876543210', N'rohit@gmail.com', N'CoolAir Services', N'docs/ac1.pdf', 1, 1, 1)
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-028', N'b028', N'irene@gmail.com', N'provider13@gmail.com', N'CLN213M', N'Cleaning', 5, N'Very professional', N'2026-01-22')
 GO
-INSERT [dbo].[Services] ([Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [BlockDates], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (1016, N'Plumber Visit', N'Leak & tap fixing', N'399', N'45', N'Plumber', N'https://trusteyman.com/wp-content/uploads/2019/02/how-does-plumbing-work-e1548696261445.jpeg', CAST(N'09:00:00' AS Time), CAST(N'17:00:00' AS Time), N'Mon-Fri', N'', N'09-11,11-13,14-16', N'Mumbai', N'400002', 10, N'Borivali', N'Suresh Patil', N'9876500001', N'suresh@gmail.com', N'Fast Plumbing', N'docs/pl1.pdf', 1, 1, 1)
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-029', N'b029', N'rohan@gmail.com', N'provider14@gmail.com', N'ELC214N', N'Electrician', 4, N'Fixed well', N'2026-01-22')
 GO
-INSERT [dbo].[Services] ([Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [BlockDates], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (1017, N'Home Cleaning', N'Full home cleaning', N'699', N'120', N'Cleaning', N'https://www.rd.com/wp-content/uploads/2023/07/GettyImages-1316432905-e1689268716150.jpg', CAST(N'08:00:00' AS Time), CAST(N'16:00:00' AS Time), N'Tue-Sun', N'', N'08-10,10-12,13-15', N'Bangalore', N'560001', 12, N'Whitefield', N'Anita Rao', N'9876500002', N'anita@gmail.com', N'Spark Clean', N'docs/cl1.pdf', 1, 1, 1)
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-030', N'b030', N'sneha@gmail.com', N'provider15@gmail.com', N'ACR215O', N'AC Repair', 5, N'Perfect service', N'2026-01-22')
 GO
-INSERT [dbo].[Services] ([Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [BlockDates], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (1018, N'Electrician Fix', N'Switch & wiring', N'449', N'60', N'Electrician', N'https://wallpapers.com/images/hd/electrician-checking-voltmeter-zpluh1tf2du87juu.jpg', CAST(N'10:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Sat', N'', N'10-12,12-14,15-17', N'Delhi', N'110001', 15, N'Dwarka', N'Manoj Jain', N'9876500003', N'manoj@gmail.com', N'PowerFix', N'docs/el1.pdf', 1, 0, 1)
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-031', N'b031', N'aman@gmail.com', N'provider1@gmail.com', N'PLB201A', N'Plumber', 4, N'Quick repair', N'2026-01-23')
 GO
-SET IDENTITY_INSERT [dbo].[Services] OFF
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-032', N'b032', N'neha@gmail.com', N'provider2@gmail.com', N'PLB202B', N'Plumber', 5, N'Excellent', N'2026-01-23')
 GO
-INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer@ex.com', N'consumer', N'1234567890', N'Consumer', N'AQAAAAIAAYagAAAAEF6+zTFai4X+1Mmttc/PobF1Nq7bWL9RXtSf630rkqnUGlNtffAcdcZW2wmsbYzz0Q==')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-033', N'b033', N'arjun@gmail.com', N'provider3@gmail.com', N'CLN203C', N'Cleaning', 4, N'Well cleaned', N'2026-01-23')
 GO
-INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider@ex.com', N'provider', N'1234567890', N'Service Provider', N'AQAAAAIAAYagAAAAECJkv9lcxv2Zii/n+piItzF9n2CWCJ0GWi8ntMj693KH77PhKX+VpJXTqlEaywIUlA==')
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-034', N'b034', N'pooja@gmail.com', N'provider4@gmail.com', N'CLN204D', N'Cleaning', 5, N'Neat work', N'2026-01-23')
+GO
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-035', N'b035', N'rahul@gmail.com', N'provider5@gmail.com', N'ELC205E', N'Electrician', 4, N'Good service', N'2026-01-24')
+GO
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-036', N'b036', N'ankit@gmail.com', N'provider6@gmail.com', N'ELC206F', N'Electrician', 5, N'Excellent', N'2026-01-24')
+GO
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-037', N'b037', N'irene@gmail.com', N'provider7@gmail.com', N'ACR207G', N'AC Repair', 5, N'Perfect', N'2026-01-24')
+GO
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-038', N'b038', N'rohan@gmail.com', N'provider8@gmail.com', N'ACR208H', N'AC Repair', 5, N'Very good', N'2026-01-24')
+GO
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-039', N'b039', N'sneha@gmail.com', N'provider9@gmail.com', N'CAR209I', N'Carpenter', 4, N'Well done', N'2026-01-25')
+GO
+INSERT [dbo].[ServiceBookings] ([Booking_Id], [Initial_Book_Id], [Consumer_Email], [Provider_Email], [Service_Id], [Service_Category], [Rating], [Customer_Feedback], [Booking_Completed_Date]) VALUES (N'SB-040', N'b040', N'aman@gmail.com', N'provider10@gmail.com', N'CAR210J', N'Carpenter', 5, N'Highly recommend', N'2026-01-25')
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'ACR207G', N'AC General Service', N'Basic AC servicing', N'699', N'75', N'AC Repair', N'https://static.vecteezy.com/system/resources/thumbnails/006/774/345/small_2x/close-up-of-air-conditioning-repair-use-fuel-gases-and-oxygen-to-weld-or-cut-metals-oxy-fuel-welding-and-oxy-fuel-cutting-processes-repairman-on-the-floor-fixing-air-conditioning-system-photo.jpg', CAST(N'09:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Sat', N'09-11,11-13,14-16', N'Jaipur', N'302001', 15, N'Malviya Nagar', N'Rohit Jain', N'9000000007', N'provider7@gmail.com', N'CoolZone', N'docs/a1.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'ACR208H', N'AC Gas Check', N'Gas pressure inspection', N'499', N'45', N'AC Repair', N'https://static.vecteezy.com/system/resources/thumbnails/007/901/630/small_2x/air-conditioning-repair-repairman-fixing-air-conditioning-system-male-technician-service-for-repair-and-maintenance-of-air-conditioners-photo.jpg', CAST(N'09:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Fri', N'10-12,12-14', N'Udaipur', N'313001', 12, N'Hiran Magri', N'Vikas Joshi', N'9000000008', N'provider8@gmail.com', N'AirCare', N'docs/a2.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'ACR215O', N'AC Installation', N'Split AC installation', N'1299', N'120', N'AC Repair', N'https://chillsairconditioning.com/wp-content/uploads/2021/05/The-Demand-for-AC-Repair-in-Miami-FL-Is-Huge.jpg', CAST(N'09:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Sat', N'09-12,13-16', N'Patna', N'800001', 15, N'Kankarbagh', N'Sanjay Kumar', N'9000000015', N'provider5@gmail.com', N'InstallAC', N'docs/a3.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'CAR209I', N'Wood Repair', N'Door & cabinet fixing', N'549', N'70', N'Carpenter', N'https://static.vecteezy.com/system/resources/previews/002/317/759/non_2x/professional-carpenter-man-working-with-woodwork-industry-tool-craftsman-person-workshop-with-timber-and-equipment-woodwork-construction-free-photo.jpg', CAST(N'09:00:00' AS Time), CAST(N'17:00:00' AS Time), N'Mon-Sat', N'09-11,11-13,14-16', N'Indore', N'452001', 10, N'Vijay Nagar', N'Kailash Patel', N'9000000009', N'provider9@gmail.com', N'WoodWorks', N'docs/w1.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'CAR210J', N'Furniture Assembly', N'Bed & table assembly', N'649', N'90', N'Carpenter', N'https://img.freepik.com/premium-photo/carpenter-woodwork-furniture-making-carpentry-workshop_130181-1177.jpg?w=2000', CAST(N'09:00:00' AS Time), CAST(N'17:00:00' AS Time), N'Mon-Fri', N'10-12,13-15', N'Bhopal', N'462001', 12, N'MP Nagar', N'Nitin Mishra', N'9000000010', N'provider10@gmail.com', N'HomeWood', N'docs/w2.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'CLN203C', N'Home Cleaning', N'2BHK deep cleaning', N'799', N'120', N'Cleaning', N'https://cdn.pixabay.com/photo/2024/03/28/05/50/cleaning-8660309_1280.jpg', CAST(N'08:00:00' AS Time), CAST(N'16:00:00' AS Time), N'Tue-Sun', N'08-10,10-12,13-15', N'Delhi', N'110045', 15, N'Dwarka', N'Neha Sharma', N'9000000003', N'provider3@gmail.com', N'Shine Clean', N'docs/c1.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'CLN204D', N'Kitchen Cleaning', N'Oil & stain removal', N'399', N'60', N'Cleaning', N'https://static.vecteezy.com/system/resources/previews/027/717/019/non_2x/housekeeper-house-cleaning-generative-ai-photo.jpg', CAST(N'08:00:00' AS Time), CAST(N'16:00:00' AS Time), N'Mon-Sat', N'09-11,11-13', N'Noida', N'201301', 10, N'Sector 62', N'Pooja Verma', N'9000000004', N'provider4@gmail.com', N'Sparkle Home', N'docs/c2.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'CLN213M', N'Bathroom Cleaning', N'Tiles & fittings cleaning', N'349', N'45', N'Cleaning', N'https://media.istockphoto.com/photos/house-cleaning-product-on-wood-table-picture-id530924664?k=6&m=530924664&s=612x612&w=0&h=pGdMECvNI8KI18tR-UFJ0WXWIan4NV0HOJr_wLbRmLw=', CAST(N'08:00:00' AS Time), CAST(N'16:00:00' AS Time), N'Tue-Sun', N'08-10,10-12', N'Prayagraj', N'211001', 10, N'Civil Lines', N'Suman Singh', N'9000000013', N'provider3@gmail.com', N'FreshHome', N'docs/c3.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'ELC205E', N'Electrical Repair', N'Switch & socket repair', N'349', N'45', N'Electrician', N'https://tse1.mm.bing.net/th/id/OIP._o6UwhbNH7sN2ngC3o7oWQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3', CAST(N'10:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Sat', N'10-12,12-14,15-17', N'Gurgaon', N'122001', 12, N'DLF Phase 3', N'Amit Singh', N'9000000005', N'provider5@gmail.com', N'VoltFix', N'docs/e1.pdf', 1, 0, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'ELC206F', N'Fan Installation', N'Ceiling fan setup', N'299', N'40', N'Electrician', N'https://alis.alberta.ca/media/697347/electrician-istock-487018428.jpg', CAST(N'10:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Fri', N'11-13,14-16', N'Faridabad', N'121001', 10, N'NIT', N'Rahul Mehta', N'9000000006', N'provider6@gmail.com', N'PowerPro', N'docs/e2.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'ELC214N', N'Inverter Check', N'Battery & wiring check', N'399', N'50', N'Electrician', N'https://d17x34b9fcvxk7.cloudfront.net/static/marketing/images/hero-backgrounds/electrician.jpg', CAST(N'10:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Sat', N'12-14,15-17', N'Varanasi', N'221001', 15, N'Sigra', N'Deepak Rai', N'9000000014', N'provider4@gmail.com', N'SafePower', N'docs/e3.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'PLB201A', N'Basic Plumbing', N'Tap and pipe fixing', N'299', N'40', N'Plumber', N'https://tse2.mm.bing.net/th/id/OIP.qJxeSxzm5H-BDobRzESVoAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3', CAST(N'09:00:00' AS Time), CAST(N'17:00:00' AS Time), N'Mon-Fri', N'09-11,11-13,14-16', N'Lucknow', N'226001', 10, N'Alambagh', N'Ramesh Kumar', N'9000000001', N'provider1@gmail.com', N'Quick Plumbers', N'docs/p1.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'PLB202B', N'Bathroom Plumbing', N'Washbasin & leakage repair', N'499', N'60', N'Plumber', N'https://innovativeplumbingpros.com/wp-content/uploads/2019/06/Henderson-plumber-innovative-plumbing-pros-llc.jpg', CAST(N'09:00:00' AS Time), CAST(N'17:00:00' AS Time), N'Mon-Sat', N'10-12,12-14,15-17', N'Kanpur', N'208001', 12, N'Kalyanpur', N'Suresh Yadav', N'9000000002', N'provider2@gmail.com', N'Urban Plumb', N'docs/p2.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'PNT211K', N'Wall Painting', N'Single room painting', N'1199', N'180', N'Painter', N'https://media.istockphoto.com/photos/house-painter-beginning-to-paint-a-large-wall-picture-id172704017?k=20&m=172704017&s=612x612&w=0&h=pIirZwScnRezHPOIk7iCHESPowma_3tFua4ErRiKPMU=', CAST(N'09:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Sat', N'09-12,13-16', N'Agra', N'282001', 15, N'Sikandra', N'Ravi Gupta', N'9000000011', N'provider1@gmail.com', N'ColorFix', N'docs/pt1.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[ServiceInfos] ([Service_Id], [ServiceName], [Description], [Pricing], [Duration], [Category], [ImagePath], [WorkingHoursStart], [WorkingHoursEnd], [WeeklySchedule], [TimeSlots], [City], [PinCode], [Radius], [Addresses], [FullName], [Phone], [Email], [BusinessName], [VerificationDocsPath], [NotifyEmail], [NotifySms], [NotifyApp]) VALUES (N'PNT212L', N'Touch-up Paint', N'Minor wall touch-up', N'499', N'60', N'Painter', N'https://media.istockphoto.com/photos/the-painter-prepares-paint-for-the-decoration-of-the-apartment-picture-id1201921799?k=20&m=1201921799&s=612x612&w=0&h=CYX3qShbUQrYl6t8zFUSthRDAyyDBafEcOKsK0Im_Ek=', CAST(N'09:00:00' AS Time), CAST(N'18:00:00' AS Time), N'Mon-Fri', N'11-13,14-16', N'Mathura', N'281001', 10, N'Govardhan', N'Anil Tiwari', N'9000000012', N'provider2@gmail.com', N'PaintPro', N'docs/pt2.pdf', 1, 1, 1)
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'alok@gmail.com', N'Alok', N'9000000017', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'aman@gmail.com', N'Aman', N'9000000004', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'ankit@gmail.com', N'Ankit', N'9000000009', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'arjun@gmail.com', N'Arjun', N'9000000006', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer1@gmail.com', N'Consumer One', N'9000000021', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer10@gmail.com', N'Consumer Ten', N'9000000020', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer2@gmail.com', N'Consumer Two', N'9000000022', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer3@gmail.com', N'Consumer Three', N'9000000023', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer4@gmail.com', N'Consumer Four', N'9000000024', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer5@gmail.com', N'Consumer Five', N'9000000025', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer6@gmail.com', N'Consumer Six', N'9000000026', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer7@gmail.com', N'Consumer Seven', N'9000000027', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer8@gmail.com', N'Consumer Eight', N'9000000028', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'consumer9@gmail.com', N'Consumer Nine', N'9000000029', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'deepak@gmail.com', N'Deepak', N'9000000011', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'irene@gmail.com', N'Irene', N'9000000001', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'kavya@gmail.com', N'Kavya', N'9000000010', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'manish@gmail.com', N'Manish', N'9000000013', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'megha@gmail.com', N'Megha', N'9000000018', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'neha@gmail.com', N'Neha', N'9000000005', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'nidhi@gmail.com', N'Nidhi', N'9000000016', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'pooja@gmail.com', N'Pooja', N'9000000007', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider1@gmail.com', N'Provider One', N'9100000001', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider10@gmail.com', N'Provider Ten', N'9100000010', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider2@gmail.com', N'Provider Two', N'9100000002', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider3@gmail.com', N'Provider Three', N'9100000003', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider4@gmail.com', N'Provider Four', N'9100000004', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider5@gmail.com', N'Provider Five', N'9100000005', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider6@gmail.com', N'Provider Six', N'9100000006', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider7@gmail.com', N'Provider Seven', N'9100000007', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider8@gmail.com', N'Provider Eight', N'9100000008', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'provider9@gmail.com', N'Provider Nine', N'9100000009', N'Service Provider', N'AQAAAAIAAYagAAAAEIzOWjiqa0vZ2bKG9DujIteFiu602o5g5qFRoWio3eb1CzjeaRpcoCo28ENQcEJqww==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'rahul@gmail.com', N'Rahul', N'9000000008', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'ritu@gmail.com', N'Ritu', N'9000000012', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'rohan@gmail.com', N'Rohan', N'9000000002', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'simran@gmail.com', N'Simran', N'9000000020', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'sneha@gmail.com', N'Sneha', N'9000000003', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'sonal@gmail.com', N'Sonal', N'9000000014', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'tarun@gmail.com', N'Tarun', N'9000000019', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
+GO
+INSERT [dbo].[SignUps] ([Email], [Full_Name], [Phone_Number], [User_Role], [Password]) VALUES (N'vishal@gmail.com', N'Vishal', N'9000000015', N'Consumer', N'AQAAAAIAAYagAAAAEK4csbYasEvVZyS0nIDvpJuAbNXlwVGJict6m3oMDCMKWx1Y/rXgQRLXNqIy9PNa3w==')
 GO
